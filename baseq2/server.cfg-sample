@@ -1,0 +1,22 @@
+# Server setup
+set hostname "YourServerName"
+set location "Singapore"
+set website "https://website.com/"
+set rcon_password "somelongrandomstring"
+
+# Config for deathmatch
+set deathmatch "1"
+set timelimit "15"
+set fraglimit "40"
+set maxclients "16"
+
+# Config for co-operative
+set coop "0"
+set skill 1
+
+# Public server
+setmaster master.quakeservers.net:27900
+set public 0
+
+# Start
+map q2dm1
