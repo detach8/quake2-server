@@ -1,11 +1,11 @@
 # Quake II Server in Docker
 
 This creates a simple Quake II server based on the default/latest version of 
-Yamagi Quake II in Debian Buster.
+[Yamagi Quake II](https://www.yamagi.org/quake2/) available in Debian Buster.
 
 ## Setup/pre-requisites
 
-1. Install Docker
+1. Install [Docker](https://www.docker.com/)
 2. Copy the `.pak` files from your own copy of the full version of Quake II to `baseq2/`
 2. Create `baseq2/server.cfg` configuration file (a sample is provided)
 
@@ -20,3 +20,8 @@ Yamagi Quake II in Debian Buster.
 ## Stopping container running in background
 
 	make down
+
+## Configuring
+
+For more configuration, see:
+https://github.com/yquake2/yquake2/blob/master/doc/040_cvarlist.md
