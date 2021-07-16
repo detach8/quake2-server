@@ -18,5 +18,8 @@ set skill 1
 setmaster master.quakeservers.net:27900
 set public 0
 
+# Reduces CPU usage
+busywait "0"
+
 # Start
 map q2dm1
